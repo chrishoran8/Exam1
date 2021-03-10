@@ -18,18 +18,12 @@
     <ClCompile Include="Exam1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="section1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="section2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="section3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="section4.h">
+    <ClInclude Include="functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

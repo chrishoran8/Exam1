@@ -1,18 +1,16 @@
-#pragma once
-//PLEASE FILL OUT THE BELOW DETAILS
-//Student Name: 
-//Course Number:
-//Student Number: 
 
-//complete each task which is shown as a comment. 
-//complete each task directly below the comment
-//each task shows a task number, and number of marks awarded
+
+
 //there are 30 marks awarded for this section
 
 #include <iostream>
 using namespace std;
+
+
+
 void sectionOneFunction()
 {
+    
 
     //1) declare a type int called intOne (2)
 
