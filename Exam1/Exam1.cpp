@@ -10,7 +10,7 @@
 //on each task requiring an output, ensure the task goes on a separate line (unless stated)
 //and ensure that it states the task number prior to output e.g. Task 11 
 //upload your final three files to your assigned folder share on class.net
-// \\192.168.68.114\finalExam\regiNumber
+// \\192.168.68.114\test\regiNumber
 
 
 #include "functions.h";
@@ -64,14 +64,14 @@ int main()
     //14) after prompting, get a variable from the user of type int called userValue. (3) 
     cin >> userValue;
 
-    //15) take the input and apply a decision based on the numberbinputted . 
+    //15) take the input and apply a decision based on the number inputted . 
     //The decision should be based on if the user inputs a number above 10 
     //the code should output "above 10" (8)
     if (userValue > 10) {
         cout << "above 10";
     }
 
-    //16) create an array of type int with 10 elements called myArray(8)
+    //16) create an array of type int with 10 elements called myArray (8)
     int myArray[10];
 
     //17 part a) create a for loop to iterate through the above array and populate the array with 
@@ -82,7 +82,7 @@ int main()
    }
 
     //17 part b) create a for loop to iterate through the above array and output its contents
-    //ensure each number is shown on the same line, but a space separates them all
+    //ensure each number is shown on the same line, but a space separates them all (6 marks)
     cout << endl;
     for (int i = 0; i < 10;i++) {
         cout << myArray[i] << " ";
@@ -100,8 +100,7 @@ int main()
     //the function should take a cost parameter and return the VAT. Vat is an increase of 20%
     //the function requires to take a type float as parameter and return type float    
     //test the function here:
-    cout << calcVat(3.0) << endl;
-    
+    cout << calcVat(3.0) << endl;    
 
     //21) using the below string
     string s1 = "Hello, ";
